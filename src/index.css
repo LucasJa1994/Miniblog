@@ -1,8 +1,16 @@
-body {
-  background-color: rgb(247, 231, 203);
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(247, 231, 203);
   font-family: "Montserrat", sans-serif;
+  position: relative; /* Importante para o posicionamento do footer */
+  padding-bottom: 60px; /* Ajuste conforme a altura do footer */
 }
 
 input::placeholder,
