@@ -1,4 +1,4 @@
-timport { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { db } from "../firebase/config"
 import { doc, getDoc } from "firebase/firestore"
 //hook do post
