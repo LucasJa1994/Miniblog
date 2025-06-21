@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 📝 Mini Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de um **mini blog interativo** desenvolvido com **React.js**, **Firebase** e **CSS Modules**, com funcionalidades de autenticação, criação e gerenciamento de postagens em tempo real.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades principais
 
-### `npm start`
+- 🧑‍💻 Cadastro e login de usuários (Firebase Authentication)
+- 📝 Criação, edição e exclusão de posts
+- 🔍 Busca de postagens por palavra-chave
+- 📑 Página com detalhes completos de cada post
+- 🗂 Dashboard com posts do usuário logado
+- 📜 Histórico de alterações (experimental)
+- 🎯 Página de promoções (extra)
+- 📁 Interface separada por componentes e hooks reutilizáveis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias utilizadas
 
-### `npm test`
+- ⚛️ React.js
+- 🔥 Firebase (Firestore + Auth)
+- 🧠 React Context API
+- 🎣 Custom Hooks (CRUD com Firestore)
+- 💅 CSS Modules
+- 📦 React Router DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧱 Estrutura de Pastas
+src/ ├── components/ # Componentes reutilizáveis (Navbar, Footer, PostDetail) 
+              ├── context/ # Contexto global (auth) 
+              ├── firebase/ # Configuração do Firebase 
+              ├── hooks/ # Hooks customizados para interagir com o Firestore 
+              ├── pages/ # Telas principais  
+              ├── About/ # Página sobre 
+              ├── CreatePost/ # Criação de posts 
+              ├── Dashboard/ # Painel do usuário  
+              ├── Edit/ # Edição de post  
+              ├── Historico/ # Histórico de ações 
+              ├── Home/ # Página inicial 
+              ├── Login/ # Tela de login  
+              ├── Post/ # Detalhes do post 
+              ├── Promocao/ # Página de promoções 
+              ├── Register/ # Tela de registro  
+              └── Search/ # Página de busca 
+              ├── App.js # Componente raiz 
+              ├── index.js # Ponto de entrada da aplicação
